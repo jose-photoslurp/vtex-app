@@ -1,6 +1,6 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
+  "name": "photos",
+  "vendor": "photoslurpvisualcommerce",
   "version": "0.0.1",
   "title": "CHANGEME",
   "description": "CHANGEME",
@@ -17,7 +17,6 @@
   },
   "builders": {
     "react": "3.x",
-    "store": "0.x",
     "pixel": "0.x",
     "docs": "0.x"
   },
@@ -25,7 +24,7 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Photoslurp Visual Commerce",
     "type": "object",
     "properties": {
       "gtmId": {
