@@ -1,9 +1,9 @@
 {
-  "name": "photos",
-  "vendor": "photoslurpvisualcommerce",
+  "name": "photoslurpvisualcommerce",
+  "vendor": "photoslurp",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Photoslurp Visual Commerce",
+  "description": "Our Visual Commerce platform enables brands to integrate UGC across the shopping journey, increasing eCommerce sales by 15% on average\n\n",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -11,9 +11,7 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": [
-      "*"
-    ]
+    "availableCountries": ["*"]
   },
   "builders": {
     "react": "3.x",
@@ -30,6 +28,11 @@
       "gtmId": {
         "title": "SAMPLE FIELD",
         "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+        "type": "string"
+      },
+      "setting1": {
+        "title": "Test",
+        "description": "test descripion",
         "type": "string"
       }
     }
