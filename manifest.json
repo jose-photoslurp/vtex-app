@@ -1,7 +1,7 @@
 {
   "name": "photoslurpvisualcommerce",
   "vendor": "photoslurp",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "title": "Photoslurp Visual Commerce",
   "description": "Our Visual Commerce platform enables brands to integrate UGC across the shopping journey, increasing eCommerce sales by 15% on average\n\n",
   "billingOptions": {
@@ -11,7 +11,9 @@
     },
     "free": true,
     "type": "free",
-    "availableCountries": ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "builders": {
     "react": "3.x",
@@ -19,20 +21,27 @@
     "docs": "0.x"
   },
   "dependencies": {
-    "vtex.pixel-interfaces": "1.x"
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.product-summary": "2.x",
+    "vtex.slider-layout": "0.x"
   },
   "settingsSchema": {
     "title": "Photoslurp Visual Commerce",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "enabled": {
+        "title": "Enable",
+        "description": "",
+        "type": "boolean"
+      },
+      "username": {
+        "title": "User Name",
+        "description": "Your Photoslurp user name",
         "type": "string"
       },
-      "setting1": {
-        "title": "Test",
-        "description": "test descripion",
+      "widgetId": {
+        "title": "Widget ID",
+        "description": "",
         "type": "string"
       }
     }

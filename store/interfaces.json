@@ -1,5 +1,19 @@
 {
-  "pixel.APPNAME": {
+  "pixel.photoslurpvisualcommerce": {
     "component": "index"
+  },
+  "product-summary.shelf#demo1": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"]
   }
 }

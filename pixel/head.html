@@ -1,10 +1,11 @@
 <script>
   (function() {
-    var appId = "{{settings.gtmId}}";
-    if (!appId) {
-      console.error('Warning: No APP NAME ID is defined. Please configure it in the apps admin.');
+    var widgetId = "{{settings.widgetId}}";
+    if (!widgetId) {
+      console.error('Warning: No widget ID is defined. Please configure it in the apps admin.');
       return
     }
+    console.log('awdawd');
 
     // Add script here
   })()
